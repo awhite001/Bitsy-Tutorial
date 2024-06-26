@@ -668,18 +668,18 @@ function detectBrowserFeatures() {
 // This is the panel arrangement you get if you are new or your editor settings are out-of-date
 var defaultPanelPrefs = {
 	workspace : [
-		{ id:"roomPanel", 			visible:true, 	position:0  },
-		{ id:"paintPanel", 			visible:true, 	position:1  },
-		{ id:"colorsPanel", 		visible:true, 	position:2  },
-		{ id:"gamePanel", 			visible:false, 	position:3  },
-		{ id:"aboutPanel", 			visible:false, 	position:4  },
-		{ id:"gifPanel", 			visible:false, 	position:5  },
-		{ id:"exitsPanel", 			visible:false, 	position:6  },
-		{ id:"dialogPanel",			visible:false,	position:7 },
-		{ id:"findPanel",			visible:false,	position:8  },
-		{ id:"inventoryPanel",		visible:false,	position:9 },
-		{ id:"tunePanel",			visible:false,	position:10 },
-		{ id:"blipPanel",			visible:false,	position:11 },
+		{ id:"roomPanel", 			visible:true, 	position:11  },
+		{ id:"paintPanel", 			visible:true, 	position:10  },
+		{ id:"colorsPanel", 		visible:true, 	position:9  },
+		{ id:"gamePanel", 			visible:false, 	position:8  },
+		{ id:"aboutPanel", 			visible:false, 	position:7  },
+		{ id:"gifPanel", 			visible:false, 	position:6  },
+		{ id:"exitsPanel", 			visible:false, 	position:5  },
+		{ id:"dialogPanel",			visible:false,	position:4 },
+		{ id:"findPanel",			visible:false,	position:3  },
+		{ id:"inventoryPanel",		visible:false,	position:2 },
+		{ id:"tunePanel",			visible:false,	position:1 },
+		{ id:"blipPanel",			visible:false,	position:0 },
 	]
 };
 // bitsyLog(defaultPanelPrefs, "editor");
